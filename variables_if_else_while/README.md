@@ -1,0 +1,1 @@
+in this directory i will learn and practice the c language concepts of: Variables and how to use if, else and while statements.   
