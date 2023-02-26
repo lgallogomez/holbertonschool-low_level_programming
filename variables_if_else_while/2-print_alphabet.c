@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- ** printing low case alphabet with putchar
+ ** main- printing low case alphabet with putchar
   **Return 0
 */
 int main(void)
