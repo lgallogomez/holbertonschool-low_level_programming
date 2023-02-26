@@ -12,6 +12,7 @@ while(ch <= 'z')
 putchar(ch);
 ch++;
 }
+{
 char chupp = 'A';
 while(chupp <= 'Z';
 putchar(chupp);
