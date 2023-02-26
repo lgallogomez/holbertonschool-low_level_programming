@@ -12,11 +12,11 @@ while(ch <= 'z')
 putchar(ch);
 ch++;
 }
-char chupp = 'A';
-while(chupp <= 'Z')
+ch = 'A';
+while(ch <= 'Z')
 {
-putchar(chupp);
-chupp++;
+putchar(ch);
+ch++;
 }
 return(0);
 }
