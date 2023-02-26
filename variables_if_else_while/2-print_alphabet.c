@@ -1,4 +1,4 @@
-/*
+/**
 * main - Prints lowercase alphabet
 * Return: 0
 */
