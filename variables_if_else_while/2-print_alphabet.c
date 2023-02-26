@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- ** main- Printing low case alphabet with putchar
-  **Return: 0
+* main - Printing low case alphabet with putchar
+* Return: 0
 */
 int main(void)
 {
