@@ -1,8 +1,8 @@
-#include <stdio.h>
 /*
-* main - Printing low case alphabet with putchar
+* main - Prints lowercase alphabet
 * Return: 0
 */
+#include <stdio.h>
 int main(void)
 {
 char ch = 'a';
