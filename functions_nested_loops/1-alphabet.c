@@ -1,5 +1,5 @@
 /**
-* Function that prints the alphabet in lower case
+* Function prints alphabet lower case
 * Return: 0
 */
 #include "main.h"
