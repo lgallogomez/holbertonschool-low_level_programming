@@ -1,0 +1,1 @@
+This excercise is intended to understand and practica what are nested loops and functions in C.  
