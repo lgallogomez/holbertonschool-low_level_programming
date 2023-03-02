@@ -3,7 +3,7 @@
 *@c: the input to check
 *return: 1 if is a letter, 0 if not.  
 */
-#include <main.h>
+#include "main.h"
 
 int is_alpha (int c)
 {
