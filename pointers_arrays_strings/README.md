@@ -1,0 +1,1 @@
+In this project we will work the concept of pinters in c programming language
