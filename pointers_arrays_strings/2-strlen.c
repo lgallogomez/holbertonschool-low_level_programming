@@ -1,17 +1,20 @@
 /**
- * string_length - Computes the length of a null-terminated string.
+ * _strlen - Computes the length of a null-terminated string.
  *
  * @s: Pointer to the string.
  *
  * Return: The length of the string.
  */
-int int_strlen(char *s)
+
+#include "main.h"
+
+int _strlen(char *s)
 {
     int length = 0;
 
-    while (*str != '\0') {
+    while (*s != '\0') {
         length++;
-        str++;
+        s++;
     }
 
     return length;
