@@ -4,7 +4,7 @@
 *@a: first value
 *@b: second value
 */
-#include <"main.h">
+#include "main.h"
 
 void swap_int(int *a, int *b)
 {
