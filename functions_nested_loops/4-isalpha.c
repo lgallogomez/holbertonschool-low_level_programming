@@ -1,11 +1,11 @@
 /**
-*is_alpha - checks if input is alphabet
+*_isalpha - checks if input is alphabet
 *@c: the input to check
 *return: 1 if is a letter, 0 if not.  
 */
 #include "main.h"
 
-int is_alpha (int c)
+int _isalpha (int c)
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c c <= 'Z'))
 }
