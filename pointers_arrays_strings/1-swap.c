@@ -1,5 +1,5 @@
 /**
-*swap_int: swaps the ints values
+*swap_int - swaps two ints values
 *
 *@a: first value
 *@b: second value
