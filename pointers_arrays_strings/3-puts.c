@@ -1,4 +1,4 @@
-/*
+/**
 *_puts - prints a string char by char
 *@str: the pointer that receives the value
 */
