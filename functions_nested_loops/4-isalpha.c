@@ -1,18 +1,18 @@
 /**
-*_isalpha - checks if input is alphabet
-*@c: the input to check
-*Return: 1 if is a letter, 0 if not.
-*/
+ *_isalpha - checks if input is alphabet
+ *@c: the input to check
+ *Return: 1 if is a letter, 0 if not.
+ */
 #include "main.h"
 
 int _isalpha(int c)
 {
-if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
-return (1);
+	return (1);
 }
 else
 {
-return (0);
+	return (0);
 }
 }
