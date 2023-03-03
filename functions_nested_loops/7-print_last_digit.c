@@ -4,10 +4,12 @@
  */
 
 #include "main.h"
+#include <stdio.h>
 
 int print_last_digit(int n)
 {
-	char i = n % 10;
-	_putchar(i);
-	return (i);
+	char t;
+	t = ((abs(n % 10)) + '0');
+	_putchar(t);
+	return (abs(n % 10));
 }
