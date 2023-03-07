@@ -1,0 +1,45 @@
+# Compiler
+CC = gcc
+
+# Compiler flags
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+# Source files
+SRC = main.c school.c
+
+# Object files
+OBJ = $(SRC:.c=.o)
+
+# Executable name
+NAME = school
+
+# File deletion program
+RM = rm -f
+
+# Default target
+all: $(NAME)
+
+# Build executable
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Build object files
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Clean Emacs, Vim, executable, and object files
+clean:
+	$(RM) *~ \#*\# $(NAME) $(OBJ)
+
+# Clean object files
+oclean:
+	$(RM) $(OBJ)
+
+# Clean Emacs, Vim, executable, and object files
+fclean: clean oclean
+
+# Force recompilation of all source files
+re: fclean all
+
+# Targets that don't create files
+.PHONY: all clean oclean fclean re
