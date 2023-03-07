@@ -1,9 +1,10 @@
 /**
  *_isupper - checks if arg is upper case
  *@c: arg tu check
- *return: 1 if upper else 0
+ *Return: 1 if upper else 0
  */
 
+#include "main.h"
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
