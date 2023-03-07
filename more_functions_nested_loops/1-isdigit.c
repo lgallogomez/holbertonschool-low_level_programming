@@ -3,7 +3,6 @@
  *@c: arg to check
  *return: 1 if is a digit else 0
  */
-
 #include "main.h"
 int _isdigit(int c)
 {
