@@ -1,6 +1,6 @@
 /**
  *print_most_numbers - prints 0-9 but 2 and 4
- *return:0 
+ *return:0
  */
 
 #include "main.h"
