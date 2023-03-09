@@ -4,6 +4,8 @@
  *
  * Return: void
  */
+
+#include "main.h"
 void print_diagonal(int n)
 {
 	if (n <= 0)
