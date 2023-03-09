@@ -1,7 +1,7 @@
 /**
- *
- *
- *
+ * print_diagonal - prints \ if 0 or less prints \n
+ *@n: # of \ to print
+ *Return diagonals printed
  */
 
 #include "main.h"
