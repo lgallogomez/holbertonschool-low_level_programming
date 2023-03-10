@@ -1,6 +1,6 @@
 /**
- *main - prints # 1 - 100 with rules
- *return: 0
+ * main - prints # 1 - 100 with rules
+ * return: 0
  *
  */
 
