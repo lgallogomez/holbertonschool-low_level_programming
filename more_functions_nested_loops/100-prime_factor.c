@@ -28,5 +28,5 @@ if (n > 2)
 printf("%ld\n", n);
 }
 
-return 0;
+return (0);
 }
