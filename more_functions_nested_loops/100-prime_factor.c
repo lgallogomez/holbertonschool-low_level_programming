@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-    long long n = 612852475143;
+    long n = 612852475143;
     int i;
 
     while (n % 2 == 0) {
@@ -20,7 +20,7 @@ int main() {
     }
 
     if (n > 2) {
-        printf("%lld\n", n);
+        printf("%ld\n", n);
     }
 
     return 0;
