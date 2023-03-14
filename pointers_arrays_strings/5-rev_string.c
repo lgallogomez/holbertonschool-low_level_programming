@@ -1,5 +1,5 @@
 /**
- * rev_string - print reverse characters.
+ * rev_string - change the string to reverse
  * @s: validate the character
  * Return: Always 0.
  */
