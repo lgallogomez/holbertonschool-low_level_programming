@@ -1,6 +1,6 @@
 /**
  *main - prints different data type sizes
- *return: 0;
+ *return: 0
  *
  */
 
