@@ -1,0 +1,1 @@
+The goal of this project is to understand some of the basic features of C programming language. Also use some functions such as printf, puts and putchar. Finally understand how the compiling process works using gcc compiler. 
