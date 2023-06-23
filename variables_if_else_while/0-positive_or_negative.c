@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  *main - assign a random number and prints if +, 0 or -
@@ -8,15 +9,15 @@
  */
 int main(void)
 {
-int n:
+  int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
  if (n > 0)
-   printf("%s is positive\n", n);
+   printf("%d is positive\n", n);
  else if (n = 0)
-   printf("%s is zero\n", n);
+   printf("%d is zero\n", n);
  else
-   printf("%s is negative\n", n);
+   printf("%d is negative\n", n);
 return (0);
 }
