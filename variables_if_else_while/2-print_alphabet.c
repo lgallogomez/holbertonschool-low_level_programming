@@ -14,4 +14,5 @@ int main(void)
 		printf("\n");
 		a++;
 	}
+	return (0);
 }
