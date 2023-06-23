@@ -11,7 +11,6 @@ int main(void)
 	while (a < 123)
 	{
 		putchar(a);
-		printf("\n");
 		a++;
 	}
 	return (0);
