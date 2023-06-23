@@ -1,0 +1,1 @@
+This is the 2nd project at Holberton School working with the C programming language. The main concepts are: variables, conditional statements If - Else and the while loop. 
