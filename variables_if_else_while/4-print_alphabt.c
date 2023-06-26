@@ -1,4 +1,4 @@
-/**
+ass/**
  *main - prints alphabet but e & q
  *return: 0
  */
@@ -6,13 +6,15 @@
 #include <stdio.h>
 int main(void)
 {
-	char a = 97;
+	char a = 'a';
 
-	while (a < 123)
+	while (a < 'z')
 	{
-		if (a != 101 || a != 113)
-		putchar(a);
+		if (a != 'e' && a != 'q')
+		{
+			putchar(a);
+		}
+		a++;
 	}
-	a++;
 	return (0);
 }
