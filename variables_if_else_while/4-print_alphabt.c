@@ -1,4 +1,4 @@
-ass/**
+/**
  *main - prints alphabet but e & q
  *return: 0
  */
