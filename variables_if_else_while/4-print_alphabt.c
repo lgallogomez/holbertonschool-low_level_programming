@@ -1,6 +1,6 @@
 /**
  *main - prints alphabet but e & q
- *return: 0
+ *Return: 0
  */
 
 #include <stdio.h>
