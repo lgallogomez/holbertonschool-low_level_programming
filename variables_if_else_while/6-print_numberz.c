@@ -7,13 +7,13 @@
 
 int main(void)
 {
-        int single_dig_nums = 48;
+	int single_dig_nums = 48;
 
-        while (single_dig_nums <= 57)
-        {
-                putchar(single_dig_nums);
-                single_dig_nums++;
-        }
-        putchar ('\n');
-        return (0);
+	while (single_dig_nums <= 57)
+	{
+		putchar(single_dig_nums);
+		single_dig_nums++;
+	}
+	putchar ('\n');
+	return (0);
 }
