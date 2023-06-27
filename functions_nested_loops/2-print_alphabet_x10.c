@@ -18,6 +18,7 @@ void print_alphabet_x10(void)
 			_putchar(letter);
 			letter++;
 		}
+		letter = 'a';
 		_putchar('\n');
 		counter++;
 	}
