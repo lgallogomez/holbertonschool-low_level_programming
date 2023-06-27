@@ -1,0 +1,25 @@
+/**
+ *print_sign - prints sign of a number
+ *@n: number to check its sign
+ *Return: 1 if +, 0 if 0, - if negative
+ */
+
+#include <stdio.h>
+#include "main.h"
+
+int print_sign(int n)
+{
+	if (n >= 49 && n <= 57)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 48)
+	{
+		_putchar(48);
+		return (0);
+	}
+	else
+		_putchar('-')
+		return (-1)
+}
