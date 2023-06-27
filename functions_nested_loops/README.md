@@ -1,0 +1,1 @@
+In this project at the Holberton School, i wiil be working at problems related with creating my own functions and resolving them using nested loops. 
