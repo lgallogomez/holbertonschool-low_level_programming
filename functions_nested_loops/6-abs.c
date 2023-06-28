@@ -1,6 +1,6 @@
 /**
  *_abs - computes absolutes value of integer
- *@: number to compute absolut value
+ *@n: number to compute absolut value
  *Return: absolute number
  */
 
