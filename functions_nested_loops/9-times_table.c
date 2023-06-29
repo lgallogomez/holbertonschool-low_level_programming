@@ -10,13 +10,13 @@ void times_table(void)
 {
 	int i = 0;
 	int mult = 0;
-	
-	while (n <= 9)
+
+	while (i <= 9)
 	{
 		while (mult <= 9)
 		{
 			i * mult;
-			if (n >= 10)
+			if (mult >= 10)
 			{
 				_putchar(i / 10 + '0');
 				_putchar(i % 10 + '0');
@@ -24,7 +24,7 @@ void times_table(void)
 				_putchar(' ');
 				mult++;
 			}
-			if else (n <= 9)
+			if else (mult <= 9)
 				{
 					_putchar(i + '0');
 					mult++;
