@@ -23,6 +23,6 @@ void print_to_98(int n)
 		_putchar(' ');
 		n--;
 	}
-	else
+	else if
 		_putchar(n + '0');
 }
