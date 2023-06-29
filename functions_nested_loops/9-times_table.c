@@ -4,7 +4,7 @@
  */
 
 #include <stdio.h>
-#include "main."
+#include "main.h"
 
 void times_table(void)
 {
