@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include "main.h"
 
-void main(void)
+int main(void)
 {
 	int n = 1;
 
@@ -33,4 +33,5 @@ void main(void)
 			n++;
 		}
 	}
+	return (0);
 }
