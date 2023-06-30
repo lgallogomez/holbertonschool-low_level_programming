@@ -16,7 +16,7 @@ int main(void)
 		{
 			printf("Buzz");
 			printf("\n");
-			return (0);
+			break;
 		}
 	        else if (n % 3 == 0 && n % 5 == 0)
 		{
@@ -39,4 +39,5 @@ int main(void)
 			n++;
 		}
 	}
+	return(0);
 }
