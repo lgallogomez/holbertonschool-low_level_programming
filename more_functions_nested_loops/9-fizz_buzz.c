@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int main(void)
+void main(void)
 {
 	int n = 1;
 
