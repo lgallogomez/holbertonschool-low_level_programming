@@ -25,5 +25,4 @@ void more_numbers(void)
 		_putchar('\n');
 		counter++;
 	}
-	_putchar('\n');
 }
