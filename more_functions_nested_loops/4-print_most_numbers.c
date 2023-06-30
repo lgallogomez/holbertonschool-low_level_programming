@@ -1,5 +1,5 @@
 /**
- *print_numbers - prints numbers from 0 to 9 but 2 and 4
+ *print_most_numbers - prints numbers from 0 to 9 but 2 and 4
  *Return: 0
  */
 
