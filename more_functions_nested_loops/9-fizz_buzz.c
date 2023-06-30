@@ -15,6 +15,7 @@ int main(void)
 		if (n == 100)
 		{
 			printf("Buzz");
+			printf('\n');
 			return (0);
 		}
 
@@ -39,6 +40,4 @@ int main(void)
 			n++;
 		}
 	}
-	printf("\n");
-	return (0);
 }
