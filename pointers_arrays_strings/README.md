@@ -1,0 +1,1 @@
+Int his project i will be resolving problems about pointers, arrays and strings using the C programming language while studying at the Holberton School. 
