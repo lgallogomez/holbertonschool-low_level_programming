@@ -1,7 +1,7 @@
 /**
  *swap_int - swaps values of two integers
  *@a: 1st number
- *@b; 2nd number
+ *@b: 2nd number
  *Return: nothing
  */
 
