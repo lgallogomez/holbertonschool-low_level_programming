@@ -1,6 +1,11 @@
+/**
+ *main - prints all single digit number possible combinations
+ *Return: 0
+ */
+
 #include <stdio.h>
 
-void main(void)
+int main(void)
 {
 	int n = 0;
 
@@ -16,4 +21,5 @@ void main(void)
 		putchar(' ');
 		n++;
 	}
+	return (0);
 }
