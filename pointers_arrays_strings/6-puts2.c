@@ -7,10 +7,10 @@
 #include <stdio.h>
 #include "main.h"
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int i = 0;
-	
+
 	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
