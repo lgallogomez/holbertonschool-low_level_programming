@@ -1,5 +1,5 @@
 /**
- *_puts2 - prints one char yes the other not until reaches end using array index position
+ *puts2 - prints 1 char, other not until reaches end using array index position
  *@str: pointer to character
  *Retun: nothing
  */
