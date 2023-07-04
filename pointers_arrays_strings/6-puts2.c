@@ -4,9 +4,14 @@
  *Retun: nothing
  */
 
+#include <stdio.h>
+#include "main.h"
+
 void _puts2(char *str)
 {
-	While (str[i] != '\0')
+	int i = 0;
+	
+	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
 		{
