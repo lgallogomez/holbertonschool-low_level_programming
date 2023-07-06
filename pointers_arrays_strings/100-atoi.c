@@ -17,15 +17,15 @@ int _atoi(char *s)
 		if (*s == '-')
 		{
 			sign = -1;
-			*s++;
+			s++;
 		}
 		else if (*s >= '0' && *s <= '9')
 		{
 			toint = (toint * 10) + (*s - '0');
-			*s++;
+			s++;
 		}
 		else
-			*s++;
+			s++;
 	}
 	return (toint * sign);
 }
