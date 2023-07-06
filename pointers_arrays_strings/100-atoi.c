@@ -27,5 +27,10 @@ int _atoi(char *s)
 		else
 			s++;
 	}
-	return (toint * sign);
+	if (sign == -1)
+	{
+		return (toint * sign);
+	}
+	else
+	return (toint);
 }
