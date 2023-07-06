@@ -24,6 +24,14 @@ int _atoi(char *s)
 			toint = (toint * 10) + (*s - '0');
 			s++;
 		}
+		else if (*s >= 'a' && *s <= 'z')
+		{
+			break;
+		}
+		else if (*s >= 'A' && *s <= 'Z')
+		{
+			break;
+		}
 		else
 			s++;
 	}
