@@ -29,13 +29,3 @@ int _atoi(char *s)
 	}
 	return (toint * sign);
 }
-
-
-int main(void)
-{
-	int nb;
-
-	nb = _atoi("----98");
-	printf("%d", nb);
-	return (0);
-}
