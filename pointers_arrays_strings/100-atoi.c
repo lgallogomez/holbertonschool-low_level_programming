@@ -12,7 +12,6 @@
 int _atoi(char *s)
 {
         int toint = 0;
-        int sign = 0;
         int negatives = 0;
 
         while (*s != '\0')
@@ -20,7 +19,7 @@ int _atoi(char *s)
             if (*s == '-')
             {
               negatives++;
-              *s++;
+              s++;
             }
             if (*s >= '0' && *s <= '9')
                 {
