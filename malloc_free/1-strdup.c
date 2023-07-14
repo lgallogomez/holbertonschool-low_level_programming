@@ -24,9 +24,13 @@ char *_strdup(char *str)
 		length_str++;
 	}
 
-	new_copy = malloc(sizeof(char) * length_str);
+	new_copy = malloc(sizeof(char) * (length_str + 1));
 	while (index_str <= length_str)
 	{
+		if (index_str == length_str)
+		{
+			break;
+		}
 		new_copy[index] = str[index_str];
 		index++;
 		index_str++;
