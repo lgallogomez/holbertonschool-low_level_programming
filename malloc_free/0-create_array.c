@@ -29,6 +29,6 @@ char *create_array(unsigned int size, char c)
 				index++;
 			}
 			string[index] = '\0';
-			return (string)
+			return (string);
 			free (string);
 }
