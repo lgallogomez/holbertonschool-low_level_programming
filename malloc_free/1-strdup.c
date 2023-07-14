@@ -25,6 +25,10 @@ char *_strdup(char *str)
 	}
 
 	new_copy = malloc(sizeof(char) * (length_str + 1));
+	if (new_copy == NULL)
+	{
+		return (NULL);
+	}
 	while (index_str <= length_str)
 	{
 		if (index_str == length_str)
