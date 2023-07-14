@@ -14,21 +14,21 @@ char *create_array(unsigned int size, char c)
 	char *string;
 	int index = 0;
 
-	string = malloc(sizeof(c) * (size + 1);
-			if (size == 0)
-			{
-				return (NULL);
-			}
-			if (string == NULL);
-			{
-				return (NULL);
-			}
-			while (index < size)
-			{
-				string[index] = c;
-				index++;
-			}
-			string[index] = '\0';
-			return (string);
-			free (string);
+	string = malloc(sizeof(c) * (size + 1));
+	if (size == 0)
+	{
+		return (NULL);
+	}
+	if (string == NULL);
+	{
+		return (NULL);
+	}
+	while (index < size)
+	{
+		string[index] = c;
+		index++;
+	}
+	string[index] = '\0';
+	return (string);
+	free (string);
 }
