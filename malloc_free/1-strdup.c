@@ -10,7 +10,7 @@
 
 char *_strdup(char *str)
 {
-	char * new_copy = 0;
+	char *new_copy = 0;
 	int index = 0;
 	int length_str = 0;
 	int index_str = 0;
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		length_str++;
 	}
 
-	new_copy = malloc(sizeof(char) * (length_str + 1));
+	new_copy = malloc(sizeof(char) * length_str);
 	while (index_str <= length_str)
 	{
 		new_copy[index] = str[index_str];
