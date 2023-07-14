@@ -1,3 +1,9 @@
+/**
+ *_strdup - copies a string into another new memory loction using malloc
+ *@str: string to duplicate
+ *Return: NULL if str is NULL, pointer to new copy on success
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
