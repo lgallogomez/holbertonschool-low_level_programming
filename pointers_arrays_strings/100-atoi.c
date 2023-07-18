@@ -10,13 +10,13 @@
 int _atoi(char *s)
 {
 	int toint = 0;
-	int sign  = 0;
+	int sign  = 1;
 
 	while (*s != '\0')
 	{
 		if (*s == '-')
 		{
-			sign = -1;
+			sign *= -1;
 			s++;
 		}
 		else if (*s >= '0' && *s <= '9')
@@ -24,13 +24,15 @@ int _atoi(char *s)
 			toint = (toint * 10) + (*s - '0');
 			s++;
 		}
-		else if (*s >= 'a' && *s <= 'z')
+		else if ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
 		{
-			break;
-		}
-		else if (*s >= 'A' && *s <= 'Z')
-		{
-			break;
+			if (toint != 0)
+				break;
+			else
+			{
+				s++;
+				continue;
+			}
 		}
 		else
 			s++;
