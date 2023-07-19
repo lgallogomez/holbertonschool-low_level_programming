@@ -22,7 +22,7 @@ if (s1 == NULL && s2 == NULL)
 }
 else if (s1 == NULL)
 {
-	for (counter2 = 0; s2[counter2] != '\0'; counter++);
+	for (counter2 = 0; s2[counter2] != '\0'; counter2++);
 	newspace = malloc(sizeof(char) * counter2 + 1);
 	for (counter2 = 0; s2[counter2] != '\0'; counter2++)
 	{
@@ -36,7 +36,7 @@ else if (s2 == NULL)
 {
         for (counter1 = 0; s1[counter1] != '\0'; counter1++);
 	newspace = malloc(sizeof(char) * counter1 + 1);
-	for (counter1 = 0; s1[counter1] != '\0'; counter1++;)
+	for (counter1 = 0; s1[counter1] != '\0'; counter1++)
 	{
 		newspace[counter_newspace] = s1[counter1];
 		counter_newspace++;
