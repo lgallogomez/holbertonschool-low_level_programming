@@ -11,7 +11,10 @@
 
 char *str_concat(char *s1, char *s2)
 {
-int counter1, counter2, space_for_concat, counter_newspace;
+int counter1 = 0;
+int counter2 = 0;
+int space_for_concat = 0;
+int counter_newspace = 0;
 char *newspace = NULL;
 
 if (s1 == NULL && s2 == NULL)
