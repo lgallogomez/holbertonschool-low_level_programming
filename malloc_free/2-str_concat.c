@@ -21,7 +21,7 @@ if (s1 == NULL && s2 == NULL)
 	newspace[counter_newspace] = '\0';
 	return (newspace);
 }
-else if (s1 == NULL)
+else if (s1 == NULL || s1[counter1] == '\0')
 {
 	for (counter2 = 0; s2[counter2] != '\0'; counter2++);
 	newspace = malloc(sizeof(char) * counter2 + 1);
@@ -33,7 +33,7 @@ else if (s1 == NULL)
 	newspace[counter_newspace] = '\0';
 	return (newspace);
 }
-else if (s2 == NULL)
+else if (s2 == NULL || s2[counter2] == '\0')
 {
         for (counter1 = 0; s1[counter1] != '\0'; counter1++);
 	newspace = malloc(sizeof(char) * counter1 + 1);
@@ -67,4 +67,20 @@ for (counter2 = 0; s2[counter2] != '\0'; counter2++)
 }
 newspace[counter_newspace] = '\0';
 return (newspace);
+}
+
+
+int main(void)
+{
+	char *s;
+
+	s = str_concat("", "Hello");
+	if (s == NULL)
+	{
+		printf("failed\n");
+		return (1);
+	}
+	printf("%s\n", s);
+	free(s);
+	return (0);
 }
