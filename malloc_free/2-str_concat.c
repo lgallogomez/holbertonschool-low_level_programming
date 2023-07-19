@@ -73,3 +73,4 @@ else
 	newspace[counter_newspace] = '\0';
 	return (newspace);
 }
+}
