@@ -1,0 +1,11 @@
+/**
+ *char*_strncat
+ *@dest: first string where second will concatenate to
+ *@src: second string to send to dest
+ *@n: number of bytes from c
+ *Return: pointer to resulting string dest
+ */
+
+#include <stdio.h>
+#include "main.h"
+
