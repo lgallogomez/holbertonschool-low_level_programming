@@ -1,5 +1,5 @@
 /**
- *char*_strncat
+ *_strncat
  *@dest: first string where second will concatenate to
  *@src: second string to send to dest
  *@n: number of bytes from c
@@ -9,16 +9,19 @@
 #include <stdio.h>
 #include "main.h"
 
-char *_strncat( char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int src_counter, dest_counter;
+	int src_c = 0;
+	int dest_c = 0;
 
-	for (dest_counter = 0; dest[dest_counter] != '\0'; dest_counter++)
+
+	for (dest_c = 0; dest[dest_c] != '\0'; dest_c++)
 		;
-	for (src_counter = 0; src_counter < n; src_counter++)
+	for (src_c = 0; src_c < n && src[src_c] != '\0'; src_c++)
 	{
-		dest[dest_counter] = src[src_counter];
-		dest_counter++;
+		dest[dest_c] = src[src_c];
+		dest_c++;
 	}
+	dest[dest_c] = '\0';
 	return (dest);
 }
