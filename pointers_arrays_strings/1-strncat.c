@@ -1,5 +1,5 @@
 /**
- *_strncat
+ *_strncat - concatenates 2 strings using n bytes from src
  *@dest: first string where second will concatenate to
  *@src: second string to send to dest
  *@n: number of bytes from c
