@@ -21,8 +21,8 @@ for (cs1 = 0, cs2 = 0; s1[cs1] != '\0' && s2[cs2] != '\0'; cs1++, cs2++)
 	{
 		return (15);
 	}
+	else if (s1 == s2)
+		break;
 }
-if (s1 == s2)
-	break;
 return (0);
 }
