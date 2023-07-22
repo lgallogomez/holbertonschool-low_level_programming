@@ -9,7 +9,7 @@
 
 char *cap_string(char *a)
 {
-	char sep[] = {',', ';'. '.', '!', '?', '"', '(', ')', '{', '}', ' ', '\t', '\n'};
+	char sep[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', ' ', '\t', '\n'};
 	int c = 0;
 	int csep = 0;
 
@@ -18,7 +18,7 @@ char *cap_string(char *a)
 
 	for (c = 0; a[c] != '\0'; c++)
 	{
-		for (csep = 0; csep < 13: csep++)
+		for (csep = 0; csep < 13; csep++)
 		{
 			if (sep[csep] == a[c])
 			{
