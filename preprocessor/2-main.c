@@ -1,7 +1,12 @@
+/**
+ *main - prints source code filename
+ *Return: nothing
+ */
+
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	printf("%s", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
