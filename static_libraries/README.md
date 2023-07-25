@@ -1,0 +1,1 @@
+This projects is about creating an static library to use the functions I made as part of the Low level programming couse at Holberton School
