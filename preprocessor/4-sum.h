@@ -1,3 +1,6 @@
 #ifndef SUM
-#define SUM(x, y) (x + y)
+#define SUM
+
+SUM(x, y) (x + y)
+
 #endif
