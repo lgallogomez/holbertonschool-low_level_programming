@@ -23,5 +23,4 @@ void rev_string(char *s)
 		s[it2] = temp[it1];
 		it1--;
 	}
-	return (0);
 }
