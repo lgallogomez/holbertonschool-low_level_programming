@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stddef.h>
 #include "main.h"
 
 /**
@@ -16,7 +17,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[it] == c)
 			return (&(s[it]));
-		if (s[it] != c)
-			return (NULL);
 	}
+	if (s[it] == '\0' && s[it] != c)
+		return (NULL);
 }
