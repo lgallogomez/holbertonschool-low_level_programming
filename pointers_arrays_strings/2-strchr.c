@@ -19,6 +19,6 @@ char *_strchr(char *s, char c)
 			return (&(s[it]));
 	}
 
-if *s[it] == '\0' && s[it] != c)
+	if (s[it] == '\0' && s[it] != c)
 return (NULL);
 }
