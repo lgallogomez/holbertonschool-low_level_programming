@@ -1,4 +1,4 @@
-#include <stdio.h>
+--#include <stdio.h>
 #include "main.h"
 /**
  *_strchr - finds 1st occurrence of char in string
@@ -13,11 +13,11 @@ char *_strchr(char *s, char c)
 
 	for (; s[it] != '\0'; it++)
 	{
-		if (s[it] == '\0')
-			return (NULL);
 		if (s[it] == c)
 		{
 			return (&(s[it]));
 		}
 	}
+	if (s[it] == '\0' && s[it] != c)
+		return (NULL);
 }
