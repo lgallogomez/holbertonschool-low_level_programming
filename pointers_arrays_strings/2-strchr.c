@@ -20,5 +20,5 @@ char *_strchr(char *s, char c)
 	}
 
 	if (s[it] == '\0' && s[it] != c)
-return (NULL);
+		return (NULL);
 }
