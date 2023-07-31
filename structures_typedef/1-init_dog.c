@@ -6,7 +6,7 @@
  *@d: structure type
  *@name: name of new dog
  *@age: age of new dog
- *@owner of new dog
+ *@owner: of new dog
  *Return: nothing
  */
 
