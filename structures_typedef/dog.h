@@ -1,4 +1,4 @@
-#ifndef
+#ifndef dog
 #def dog
 struct dog
 {
