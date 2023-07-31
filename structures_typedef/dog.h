@@ -5,7 +5,7 @@
  *struct dog - strcutures with dogs identity
  *@name: dogs name
  *@age: dogs age
- *@owned: dogs owner
+ *@owner: dogs owner
  */
 
 
