@@ -15,7 +15,6 @@ void times_table(void)
 
 	for (; i < 10; i++)
 	{
-		j = 0;
 		for(; j < 10; j++)
 		{
 			mult = i * j;
@@ -23,29 +22,25 @@ void times_table(void)
 			{
 				_putchar(mult / 10 + '0');
 				_putchar(mult % 10 + '0');
-				if (j != 9)
-				{
-					_putchar(',');
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar('\n');
-				}
-			}
+		        }
 			else
 			{
-				_putchar(mult + '0');
-				if (j != 9)
+				if (j == 0)
 				{
-					_putchar(',');
-					_putchar(' ');
+					_putchar(mult + '0');
 				}
 				else
 				{
-					_putchar('\n');
+					_putchar (' ');
+					_putchar(mult + '0');
 				}
 			}
+			if (j != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
+		_putchar('\n');
 	}
 }
