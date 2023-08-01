@@ -5,43 +5,47 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 void times_table(void)
 {
         int i = 0;
-        int mult = 0;
-        int result;
+        int j = 0;
+        int mult;
 
-        while (i <= 9)
-	    {
-           	while (mult <= 9)
-		        {
-                    result = i * mult;
-                         if (mult == 9)
-            			    {
-                             	putchar(result + '0');
-                             	i++;
-                                mult = 0;
-                                putchar('\n');
-                                break;
-            			    }
-			            if (result > 9)
-			                {
-                                putchar(result / 10 + '0');
-                				putchar(result % 10 + '0');
-                				putchar(',');
-                				putchar(' ');
-                				mult++;
-                			}
-                        else if (result <= 9)
-		                    {
-                             	putchar(result + '0');
-                             	putchar(',');
-                             	putchar(' ');
-				            	mult++;
-		                    }      
-	            }
-	    }
-	    
+	for (; i < 10; i++)
+	{
+		j = 0;
+		for(; j< 10; j++)
+		{
+			mult = i *j;
+			if (mult > 9)
+			{
+				_putchar(mult / 10 + '0');
+				_putchar(mult % 10 + '0');
+				if (j != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar('\n');
+				}
+			}
+			else
+			{
+				_putchar(mult + '0');
+				if (j != 9)
+				{
+					_putchar(',');
+					_putchar('\n');
+				}
+				else
+				{
+					_putchar('\n');
+				}
+			}
+		}
+	}
 }
-
