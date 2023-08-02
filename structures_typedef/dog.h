@@ -12,7 +12,7 @@
  *dog_t - typedef for struct dog
  */
 
-typedef struct dog dog_t;
+typedef struct dog_t;
 
 struct dog
 {
