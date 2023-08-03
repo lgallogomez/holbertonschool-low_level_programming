@@ -9,7 +9,7 @@
  */
 
 /**
- *dog_t - typedef for struct do
+ * dog_t - typedef for struct dog
  */
 
 struct dog
