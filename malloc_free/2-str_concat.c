@@ -20,7 +20,6 @@ char *newspace = NULL;
 if (s1 == NULL && s2 == NULL)
 {
 	newspace = malloc(sizeof(char));
-	counter_newspace = 0;
 	newspace[counter_newspace] = '\0';
 	return (newspace);
 }
