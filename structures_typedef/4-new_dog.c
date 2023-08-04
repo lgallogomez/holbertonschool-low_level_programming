@@ -10,12 +10,14 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <string.h>
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newd;
 	char *new_name;
-
+	char *new_owner;
+	
 	newd = malloc(sizeof(dog_t));
 	if (newd == NULL)
 		return (NULL);
