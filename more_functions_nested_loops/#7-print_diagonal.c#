@@ -1,0 +1,29 @@
+/**
+ *print_diagonal - prints a diagonal
+ *@n: number of times char / should be printed
+ *Return: nothing
+ */
+
+#include <stdio.h>
+#include "main.h"
+
+void print_diagonal(int n)
+{
+	int blank = 0;
+	int diag = 0;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	for (blank = 0; blank < n; blank++)
+	{
+		_putchar('\\');
+		_putchar('\n');
+		n++;
+		for (; blank < n - 1;
+		     _putchar(' ');
+		     blank++;
+		_putchar('\\');
+	}
+}
