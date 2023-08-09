@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		firstn = atoi(argv[2]);
-		secn = atoi(argv[3]);
+		firstn = atoi(argv[1]);
+		secn = atoi(argv[2]);
 		result = firstn * secn;
 		printf("%d\n", result);
 		return (0);
