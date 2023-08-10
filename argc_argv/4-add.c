@@ -8,6 +8,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int check(char *ptr)
+{
+	int i = 0;
+
+	for (; ptr[i] != '\0'; i++)
+	{
+		if (ptr[i] < 48 || ptr[i] > 57)
+			return (1);
+	}
+	return (0);
+}
+
 int main(int argc, char *argv[])
 {
 	int i;
@@ -20,6 +32,11 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 		{
 			if (atoi(argv[i]) == 0 && *argv[i] != '0')
+			{
+				printf("Error\n");
+				return (1);
+			}
+			else if (check(argv[i]) == 1)
 			{
 				printf("Error\n");
 				return (1);
