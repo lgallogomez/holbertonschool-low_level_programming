@@ -1,8 +1,7 @@
 /**
- *main - adds to positive numbers
- *@argc: number of arguments
- *@argv: pointer to array with arguments values
- *Return: 0 on error, 1 if symbols are passed, else on success
+ *check - checks if there is a letter
+ *@ptr: array of chars to check if there is a char
+ *Return: 1 if finds a char in ptr, 0 if only numbers in ptr
  */
 
 #include <stdio.h>
@@ -19,6 +18,14 @@ int check(char *ptr)
 	}
 	return (0);
 }
+
+
+/**
+ *main - adds to positive numbers
+ *@argc: number of arguments
+ *@argv: array with arguments values
+ *Return: 1 on error, 0 on success
+*/
 
 int main(int argc, char *argv[])
 {
