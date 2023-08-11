@@ -6,6 +6,9 @@
  * Return: index where function found especific integer
 */
 
+#include <stdio.h>
+#include "function_pointers.h"
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
