@@ -23,10 +23,10 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	if ((*argv[2] == '%' || *argv[2] == '/') && *argv[3] == '0')
-		{
-			printf("Error\n");
-			exit(100);
-		}
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	first_num = atoi(argv[1]);
 	second_num = atoi(argv[3]);
 	result = get_op_func(argv[2])(first_num, second_num);
