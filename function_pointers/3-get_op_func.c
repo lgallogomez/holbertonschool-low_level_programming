@@ -1,3 +1,9 @@
+/**
+ * get_op_func - looks into an array of structures and checks if operator
+ * @s: pointer to char
+ * Return: returns the result of the selected operation in array of structures
+*/
+
 #include "3-calc.h"
 int (*get_op_func(char *s))(int, int)
 {
