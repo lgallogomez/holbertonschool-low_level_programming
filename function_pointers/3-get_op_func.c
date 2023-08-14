@@ -1,7 +1,7 @@
 #include "3-calc.h"
 int (*get_op_func(char *s))(int, int)
 {
-	 int i;
+	 int i = 0;
 	 
 	 op_t ops[] = {
 		{"+", op_add},
