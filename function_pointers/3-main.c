@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-int second_num, first_num, result;
+	int second_num, first_num, result;
 
 	if (argc != 4)
 	{
@@ -27,9 +27,9 @@ int second_num, first_num, result;
 			printf("Error\n");
 			exit(100);
 		}
-first_num = atoi(argv[1]);
-second_num = atoi(argv[3]);
-result = get_op_func(argv[2])(first_num, second_num);
-printf("%d\n", result);
-return (0);
+	first_num = atoi(argv[1]);
+	second_num = atoi(argv[3]);
+	result = get_op_func(argv[2])(first_num, second_num);
+	printf("%d\n", result);
+	return (0);
 }
