@@ -1,8 +1,8 @@
 /**
- * op_add - adds two integers
- * @a: 1st int
- * @b: 2nd int
- * Return: the result of addittion. 
+* op_add - adds two integers
+* @a: 1st int
+* @b: 2nd int
+* Return: the result of addittion. 
 */
 
 int op_add(int a, int b)
@@ -35,7 +35,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_add - divides two integers
+ * op_div - divides two integers
  * @a: 1st int
  * @b: 2nd int
  * Return: the result of division. 
@@ -47,7 +47,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_add - divides two integers and returns the remainder
+ * op_mod - divides two integers and returns the remainder
  * @a: 1st int
  * @b: 2nd int
  * Return: the result of modulo. 
