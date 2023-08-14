@@ -1,8 +1,8 @@
 /**
- * main- performs simple aritmetic operations
- * @argc: counts number of arguments passed
- * @argv: array of pointers with values passed
- * Return: nothing 
+ *main- performs simple aritmetic operations
+ *@argc: counts number of arguments passed
+ *@argv: array of pointers with values passed
+ *Return: nothing
 */
 
 #include "3-calc.h"
@@ -16,7 +16,7 @@ if (argc != 4)
 	printf("Error\n");
 	exit(98);
 }
-if (*argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*' 
+if (*argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*'
 	&& *argv[2] != '/' && *argv[2] != '%')
 {
 	printf("Error\n");
