@@ -1,0 +1,1 @@
+In this project I will be working on exercises related to bit manipulation using the C programming language.
